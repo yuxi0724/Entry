@@ -7,7 +7,7 @@ string dete[6] = { "li","beq","bne","add","addi","andi"};
 string top[4] = { "SN","WN","ST","WT" };
 string Rs[6] = { "R1","R2","R3","R4","R5","R6" };
 int rs[6] = { 0 };
-fstream op("ÀÉ®×.txt");
+fstream op("Ã€Ã‰Â®Ã—.txt");
 string S;
 vector<string> s;
 int c = 0;
@@ -127,7 +127,7 @@ int main()
 		op.close();
 	}
 	int en = 0;;
-	cout << "¿é¤JEntry (Entry > 0)\n";
+	cout << "Â¿Ã©Â¤JEntry (Entry > 0)\n";
 	while (en <= 0 || en & 2 != 0)
 		cin >> en;
 	while (en / 2 > 0)
@@ -139,9 +139,9 @@ int main()
 		else
 			entry[entry.size() - 1] = 0;
 	}
-	Top = new int* [entry.size()]();   //¬ö¿ý¨C­Ó¦¸¼ÆN/Tªº¦¸¼Æ
-	mis = new int [entry.size()]();     //¬ö¿ý¹w´ú¥¢±Ñ¦¸¼Æ
-	pre = new int* [entry.size()]();     //¬ö¿ý¨C­Ó³Ì«e­±ªº¼Æ¦r
+	Top = new int* [entry.size()]();   //Â¬Ã¶Â¿Ã½Â¨CÂ­Ã“Â¦Â¸Â¼Ã†N/TÂªÂºÂ¦Â¸Â¼Ã†
+	mis = new int [entry.size()]();     //Â¬Ã¶Â¿Ã½Â¹wÂ´ÃºÂ¥Â¢Â±Ã‘Â¦Â¸Â¼Ã†
+	pre = new int* [entry.size()]();     //Â¬Ã¶Â¿Ã½Â¨CÂ­Ã“Â³ÃŒÂ«eÂ­Â±ÂªÂºÂ¼Ã†Â¦r
 	for (int i = 0; i < entry.size(); i++)
 	{
 		Top[i] = new int[8]();
