@@ -15,6 +15,3 @@ co：
 4.判斷該行是否有判斷錯誤，若有則錯誤+1，輸出錯誤數
 5.對於目前所指向的位置依據此運算是否take，若無則-1，若有則+1(範圍：0~3)
 6.將entry指向下一個
-
-影片連結：
-https://www.youtube.com/watch?v=unxgpivkNQg
